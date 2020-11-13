@@ -1,0 +1,38 @@
+body{
+margin:0;
+padding:0;
+background-size:200% 200%;
+}
+
+
+.morning{
+background-image:linear-gradient(to bottom, #fc8862 25%, #fda26b 75%);
+}
+
+.afternoon{
+background-image:linear-gradient(to bottom, #febc62 25%, #fddc6b 75%);
+}
+
+.evening{
+background-image:linear-gradient(to bottom, #ad6c6a 25%, #da9e66 75%);
+}
+
+.night{
+background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 5px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 2px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 5px),
+	radial-gradient(rgba(255,255,255,.9), rgba(255,255,255,.1) 1px, transparent 2px),
+	linear-gradient(to bottom, #04041E 25%, #05084A 75%);
+background-size:550px 550px, 350px 350px, 250px 250px, 150px 150px, 800px 800px;
+background-position:0 0, 60px 60px, 130px 270px, 70px 100px, 0 0;;
+}
+
+#greeting{
+color:white;
+text-align:center;
+font-size:3em;
+font-family:Calibri, sans-serif;
+margin-top:10vh;
+text-shadow: 5px 5px 1px hsla(200,100%,5%,.3);
+}

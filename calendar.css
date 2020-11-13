@@ -1,0 +1,78 @@
+@font-face{
+font-family:Rheiborn Sans;
+src:url(fonts/Rheiborn_Sans_Clean.ttf);
+}
+@font-face{
+font-family:Verah;
+src:url(fonts/Verah___.ttf), url(fonts/Verahb___.ttf), url(fonts/Verahi___.ttf), url(fonts/Verahbi___.ttf);
+}
+@font-face{
+font-family:NTF Grand;
+src:url(fonts/NTF-Grand-Regular.otf);
+}
+
+section.calendar-display{
+width:100%;
+display:flex;
+flex-wrap:wrap;
+flex-direction:column;
+align-items:center;
+}
+
+section.date-time{
+display:flex;
+flex-wrap:wrap;
+flex-direction:column;
+align-items:center;
+margin-top:5vh;
+width:50vh;
+box-shadow: 10px 10px 1px hsla(50,50%,5%,.33);
+
+}
+
+section>div{
+display:inline-block;
+width:100%;
+text-align:center;
+font-family:NTF Grand, sans-serif;
+letter-spacing:5px;
+color:white;
+text-shadow: 3px 3px 3px hsla(200,100%,5%,.75);
+}
+
+div.month{
+text-transform:uppercase;
+font-size:3em;
+}
+
+div.month, div.year{
+padding:5px 0px;
+background-color:hsla(215,50%,30%,1);
+}
+
+div.day, div.clock{
+background-color:hsla(210,60%,20%,1);
+padding:5px 0px;
+font-variant-numeric:tabular-nums;
+}
+
+div.weekday{
+font-size:2em;
+background-color:hsla(210,25%,50%,1);
+padding:2px 0px;
+}
+
+div.day{
+font-size:7em;
+}
+
+div.year{
+font-size:4em;
+font-variant-numeric:tabular-nums;
+}
+
+div.clock{
+font-size:3em;
+}
+
+
